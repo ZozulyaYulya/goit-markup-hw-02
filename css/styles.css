@@ -3,6 +3,30 @@ body {
   color: #434455;
   background-color: #fff;
 }
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.hero {
+  background-color: #2e2f42;
+}
+[type="button"] {
+  background-color: #4d5ae5;
+}
+.hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.hero-btn :hover,
+.hero-btn :focus {
+  background-color: #404bbf;
+}
 
 ul,
 ol {
@@ -55,4 +79,18 @@ a {
 }
 .page-footer {
   background-color: #2e2f42;
+}
+.item-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
